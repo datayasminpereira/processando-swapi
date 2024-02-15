@@ -5,7 +5,7 @@ Este repositório contém scripts para extrair dados da API Star Wars (SWAPI) e 
 
 ### Detalhamento
 - Parte 1: extrai os dados da API do Star Wars no 
-endpoint *people, **films** e **vehicles** e armazene o retorno da API de todas as paginações 
+endpoint **people**, **films** e **vehicles** e armazene o retorno da API de todas as paginações 
 localmente em arquivos no formato .json. Salva os arquivos baseado em uma estrutura de 
 diretórios de acordo com o ano contido no conteúdo da propriedade created. 
 
