@@ -1,16 +1,16 @@
 # Processamentos de Dados da SWAPI com Apache Airflow (Máquina Virtual Linux)
 ## Contextualização
 ### Visão geral
-Este repositório contém scripts para extrair dados da API Star Wars (SWAPI) e transformá-los para atender às necessidades da equipe de Produtos para o lançamento de um novo filme de ficção científica.
+Este repositório contém scripts para extrair dados da API Star Wars (SWAPI) e transformá-los para atender às necessidades da equipe de Produtos para o lançamento de um novo filme de ficção científica, utilizando o Airflow para automatizar o processo.
 
 ### Detalhamento
 - Parte 1: extrai os dados da API do Star Wars no 
-endpoint *people, **films* e *vehicles* e armazene o retorno da API de todas as paginações 
+endpoint *people, **films** e **vehicles** e armazene o retorno da API de todas as paginações 
 localmente em arquivos no formato .json. Salva os arquivos baseado em uma estrutura de 
 diretórios de acordo com o ano contido no conteúdo da propriedade created. 
 
-- Parte 2: retorna número de registros retornados do enpoint *people, e tendo uma lista dos filmes veiculados com cada registro de **people* salva um arquivo .json o nome da pessoa e uma lista de títulos dos filmes 
-vinculados aos registros de *people*.
+- Parte 2: retorna número de registros retornados do enpoint **people**, e tendo uma lista dos filmes veiculados com cada registro de **people** salva um arquivo .json o nome da pessoa e uma lista de títulos dos filmes 
+vinculados aos registros de **people**.
 
 ## Pré requisitos
 - VirtualBox instalado              - https://www.virtualbox.org/wiki/Downloads
